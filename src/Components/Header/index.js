@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark myColors">
             <section className="container-fluid">
-              <Link className="navbar-brand" href="/">Nida Ghuman</Link>
+              <Link className="navbar-brand" to="/">Nida Ghuman</Link>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavLinks" aria-controls="navbarNavLinks" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>

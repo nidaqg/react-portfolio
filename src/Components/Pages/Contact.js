@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import image from "./contact.png";
 
 function Contact() {
     return (
-        <div>
-           Hello 
-        </div>
+        <>
+        <img src={image} className="img-fluid w-100" alt="contact-header"/>
+        </>
     )
 }
 

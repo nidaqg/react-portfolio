@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import image from "./home.png";
 
 function Home() {
     return (
-        <div>
-            yo
-        </div>
+        <>
+        <img src={image} className="img-fluid w-100" alt="home-header"/>
+        </>
     )
 }
 

@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import image from "./portfolio.png";
 
 function Portfolio() {
     return (
-        <div>
-            yes
-        </div>
+        <>
+        <img src={image} className="img-fluid w-100" alt="portfolio-header"/>
+        </>
     )
 }
 
