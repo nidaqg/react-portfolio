@@ -3,7 +3,7 @@ import Wrapper from '../Wrapper';
 import image from "./home.png";
 import profileImage from "../../images/nida-ghuman-2.jpeg";
 import IconsCard from "../IconsCard/index";
-import "./home.css";
+import "./style.css";
 
 function Home() {
     return (
