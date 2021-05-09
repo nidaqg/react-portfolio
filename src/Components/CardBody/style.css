@@ -1,0 +1,7 @@
+.socialIcons {
+    color: white;
+}
+.socialIcons:hover {
+    box-shadow: rgba(248, 246, 246, 0.849) 10px 20px 20px;
+    
+}
