@@ -3,7 +3,7 @@ import React from 'react'
 function Wrapper (props) {
     return (
         <>
-       <main class="container-fluid bg-light flex-shrink-0 mt-3">
+       <main className="container-fluid bg-light flex-shrink-0 mt-3">
            {props.children}
        </main>
         </>

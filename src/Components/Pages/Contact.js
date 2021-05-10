@@ -10,7 +10,7 @@ function Contact() {
     <>
       <img src={image} className="img-fluid w-100" alt="contact-header" />
       <Wrapper>
-        <section class="row row-cols-1 row-cols-lg-2 g-4 m-5">
+        <section className="row row-cols-1 row-cols-lg-2 g-4 m-5">
 
           <ContactCard>
             <h3 className="text-center fs-5 fw-bold">Connect with Me</h3>
@@ -24,7 +24,7 @@ function Contact() {
 
           <ContactCard>
             <h3 className="text-center fs-5 fw-bold mb-2">Connect with me on LinkedIn or GitHub:</h3>
-            <Link to="/github"><i class="fab fa-github-square fa-2x socialIcons2 me-2" style={{ color: 'black' }}></i></Link>
+            <Link to="/github"><i className="fab fa-github-square fa-2x socialIcons2 me-2" style={{ color: 'black' }}></i></Link>
             <Link to="/linkedin"><i className="fab fa-linkedin fa-2x socialIcons2" style={{ color: 'black' }}></i></Link>
             <p className="mt-2">Call me at: 484-253-6054</p>
             <p className="mt-2">Or email me at <a href="mailto:nidaqg@gmail.com" target="_blank" rel="noreferrer" className="link-dark">nidaqg@gmail.com</a></p>

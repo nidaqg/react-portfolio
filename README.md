@@ -19,11 +19,11 @@ A responsive portfolio built using React and Bootstrap. Portfolio contains 3 pag
 
 The deployed website can be viewed [here]()
 
-![About Me/Home Page](/../images/homepage-demo.png)
+![About Me/Home Page]()
 
-![Portfolio Page](/../images/portfolio-demo.png)
+![Portfolio Page]()
 
-![Contact Me](/../images/contact-page-demo.png)
+![Contact Me]()
 
  
 ## License

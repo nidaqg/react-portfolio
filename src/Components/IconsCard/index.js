@@ -17,18 +17,18 @@ function AboutCard() {
     return (
         <>
           <section className="text-center">
-                    <img src={htmlIcon} alt="html-icon" class="img-fluid rounded-circle m-2 socialIcons2" width="15%"/> 
-                    <img src={cssIcon} alt="css-icon" class="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
-                    <img src={jsIcon} alt="js-icon" class="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
-                    <img src={jqueryIcon} alt="jquery-icon" class="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
-                    <img src={bootstrapIcon} alt="bootstrap-icon" class="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
-                    <img src={nodejsIcon} alt="nodejs-icon" class="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
-                    <img src={npmIcon} alt="npm-icon" class="img-fluid m-2 rounded-circle socialIcons2" width="15%"/>               
-                    <img src={mysqlIcon} alt="mysql-icon" class="img-fluid m-2 rounded-circle socialIcons2" width="15%"/>               
-                    <img src={githubIcon} alt="github-icon" class="img-fluid rounded-circle m-2 socialIcons2" width="15%"/> 
-                    <img src={reactIcon} alt="github-icon" class="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
-                    <img src={mongooseIcon} alt="github-icon" class="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
-                    <img src={mongoDBIcon} alt="github-icon" class="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
+                    <img src={htmlIcon} alt="html-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/> 
+                    <img src={cssIcon} alt="css-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
+                    <img src={jsIcon} alt="js-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
+                    <img src={jqueryIcon} alt="jquery-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
+                    <img src={bootstrapIcon} alt="bootstrap-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
+                    <img src={nodejsIcon} alt="nodejs-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
+                    <img src={npmIcon} alt="npm-icon" className="img-fluid m-2 rounded-circle socialIcons2" width="15%"/>               
+                    <img src={mysqlIcon} alt="mysql-icon" className="img-fluid m-2 rounded-circle socialIcons2" width="15%"/>               
+                    <img src={githubIcon} alt="github-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/> 
+                    <img src={reactIcon} alt="github-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
+                    <img src={mongooseIcon} alt="github-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
+                    <img src={mongoDBIcon} alt="github-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
                  </section>  
         </>
     )

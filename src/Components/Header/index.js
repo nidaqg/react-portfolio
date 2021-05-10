@@ -12,9 +12,23 @@ function Navbar() {
               </button>
               <section className="collapse navbar-collapse justify-content-end" id="navbarNavLinks">
                 <section className="navbar-nav">
-                  <Link className="nav-link" aria-current="page" to="/">Home</Link>
-                  <Link className="nav-link" to="/portfolio">Portfolio</Link>
-                  <Link className="nav-link" to="/contact">Contact</Link>
+                  <Link 
+                  className={window.location.pathname === "/" || window.location.pathname === "/about"
+                  ? "nav-link active" : "nav-link"}
+                  to="/">Home</Link>
+
+                  <Link 
+                  className={window.location.pathname === "/#/portfolio"
+                  ? "nav-link active" : "nav-link"}
+                  to="/portfolio">Portfolio
+                  </Link>
+
+                  <Link 
+                  className={window.location.pathname === "/#/contact"
+                  ? "nav-link active" : "nav-link"} 
+                  to="/contact">Contact
+                  </Link>
+
                 </section>
               </section>
             </section>
