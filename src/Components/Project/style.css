@@ -1,0 +1,16 @@
+.myBtn {
+    background-color: rgb(16, 1, 20);
+    color: white;
+    border-radius: 12px;
+}
+
+.myBtn:hover {
+    background-color: rgb(74, 17, 92);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.localCard {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
