@@ -10,3 +10,22 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif
 
 }
+
+.hoverImg:hover {
+    opacity: 0;
+    
+   transition-duration: 0.50s;
+ 
+
+}
+
+.backImg {
+    background-image: url(../../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+
+
