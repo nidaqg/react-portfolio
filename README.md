@@ -17,7 +17,7 @@ A responsive portfolio built using React and Bootstrap. Portfolio contains 3 pag
 
 ## Usage
 
-The deployed website can be viewed [here]()
+The deployed website can be viewed [here](https://nidaqg.github.io/react-portfolio/)
 
 ![About Me/Home Page](/demo.png)
 
@@ -54,7 +54,7 @@ SOFTWARE.
 
 The repo for this project can be found here: https://github.com/nidaqg/react-portfolio
 
-Deployed project can be found at: 
+Deployed project can be found at: https://nidaqg.github.io/react-portfolio/
 
 For any questions or to report issues, email me at: nidaqg@gmail.com
 
