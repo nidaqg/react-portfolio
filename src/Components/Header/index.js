@@ -13,19 +13,16 @@ function Navbar() {
               <section className="collapse navbar-collapse justify-content-end" id="navbarNavLinks">
                 <section className="navbar-nav">
                   <Link 
-                  className={window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link active" : "nav-link"}
+                  className="nav-link"
                   to="/">Home</Link>
 
                   <Link 
-                  className={window.location.pathname === "/#/portfolio"
-                  ? "nav-link active" : "nav-link"}
+                  className="nav-link"
                   to="/portfolio">Portfolio
                   </Link>
 
                   <Link 
-                  className={window.location.pathname === "/#/contact"
-                  ? "nav-link active" : "nav-link"} 
+                  className="nav-link" 
                   to="/contact">Contact
                   </Link>
 
