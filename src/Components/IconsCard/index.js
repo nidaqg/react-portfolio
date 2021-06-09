@@ -6,7 +6,6 @@ import githubIcon from "../../images/icons/github.png";
 import jqueryIcon from "../../images/icons/jquery.png";
 import jsIcon from "../../images/icons/js.png";
 import mongoDBIcon from "../../images/icons/mongoDB.png";
-import mongooseIcon from "../../images/icons/mongooselogo.jpeg";
 import mysqlIcon from "../../images/icons/mysql.png";
 import nodejsIcon from "../../images/icons/nodejs.png";
 import npmIcon from "../../images/icons/npm.png";
@@ -26,9 +25,8 @@ function AboutCard() {
                     <img src={npmIcon} alt="npm-icon" className="img-fluid m-2 rounded-circle socialIcons2" width="15%"/>               
                     <img src={mysqlIcon} alt="mysql-icon" className="img-fluid m-2 rounded-circle socialIcons2" width="15%"/>               
                     <img src={githubIcon} alt="github-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/> 
-                    <img src={reactIcon} alt="github-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
-                    <img src={mongooseIcon} alt="github-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
-                    <img src={mongoDBIcon} alt="github-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
+                    <img src={reactIcon} alt="react-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
+                    <img src={mongoDBIcon} alt="mongoDB-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
                  </section>  
         </>
     )

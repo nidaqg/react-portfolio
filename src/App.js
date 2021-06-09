@@ -71,6 +71,15 @@ function App() {
     <Route path='/wikiblog' component={() => { 
         window.location.href = 'https://wiki-pour.herokuapp.com/'; 
         return null}}/> 
+
+    <Route path='/rubberduckiesgithub' component={() => { 
+        window.location.href = 'https://github.com/morgan-b/rubber-duckies'; 
+        return null}}/> 
+
+   <Route path='/rubberduckies' component={() => { 
+        window.location.href = 'https://damp-shelf-60845.herokuapp.com/'; 
+        return null}}/> 
+
  
 
     

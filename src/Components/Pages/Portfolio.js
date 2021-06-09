@@ -9,14 +9,33 @@ import plannerImg from "../../images/planner-demo.png";
 import blogImg from "../../images/tech-blog-demo.png";
 import wikiImg from "../../images/wiki-pour-demo.png";
 import noteImg from "../../images/note-taker-demo.png";
+import rubberduckies from "../../images/rubber-duckies-demo.png";
 
 function Portfolio() {
     return (
         <>
         <img src={image} className="img-fluid w-100" alt="portfolio-header"/>
         <Wrapper>
-        <section className="row row-cols-1 row-cols-lg-3 g-4 m-4">
+        <section className="row row-cols-1 row-cols-lg-2 g-4 m-4">
         
+        <Project
+        projectImage={wikiImg}
+        imageAlt={"cms-wiki-demo"}
+        title={"CMS Style Wiki"}
+        description={"This project aimed at creating a CMS-style wiki where users can view cocktail recipes, view information on different Spirits, search by brand, etc and create their own accounts. Once an account has been created, the user can create, edit or delete their own cocktail recipes as well. The app follows MVC paradigm in it's architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM and express-session npm pakage for authentication. Built as part of a three person group."}
+        githubLink={"/wikigithub"}
+        projectLink={"/wikiblog"}
+        />
+
+        <Project
+        projectImage={rubberduckies}
+        imageAlt={"rubber-duckies"}
+        title={"Rubber Duckies: A REACT and MySQL App"}
+        description={"A full stack application built using a MySQL and express backend and REACT frontend. App for facilitating communication for those who might experience difficulty communicating due to learning disabilities, social anxiety or the like. The App contains two user types and user experiences: the user making use of the app to communicate and the caregiver responsible for them."}
+        githubLink={"/rubberduckiesgithub"}
+        projectLink={"/rubberduckies"}
+        />
+
         <Project
          projectImage={weatherImg}
          imageAlt={"weather-demo"}
@@ -61,16 +80,6 @@ function Portfolio() {
         githubLink={"/notetakergithub"}
         projectLink={"/notetaker"}
         />
-
-       <Project
-        projectImage={wikiImg}
-        imageAlt={"cms-wiki-demo"}
-        title={"CMS Style Wiki"}
-        description={"This project aimed at creating a CMS-style wiki where users can view cocktail recipes, view information on different Spirits, search by brand, etc and create their own accounts. Once an account has been created, the user can create, edit or delete their own cocktail recipes as well. The app follows MVC paradigm in it's architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM and express-session npm pakage for authentication. Built as part of a three person group."}
-        githubLink={"/wikigithub"}
-        projectLink={"/wikiblog"}
-        />
-
 
         </section>
         </Wrapper>

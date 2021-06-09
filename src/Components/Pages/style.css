@@ -13,10 +13,13 @@
 
 .hoverImg:hover {
     opacity: 0;
-    
+    transition-timing-function: linear;
    transition-duration: 0.50s;
- 
+}
 
+.hoverImg {
+    transition-timing-function: linear;
+    transition-duration: 0.35s;  
 }
 
 .backImg {
