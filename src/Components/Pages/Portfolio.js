@@ -23,8 +23,8 @@ function Portfolio() {
         imageAlt={"cms-wiki-demo"}
         title={"CMS Style Wiki"}
         description={"This project aimed at creating a CMS-style wiki where users can view cocktail recipes, view information on different Spirits, search by brand, etc and create their own accounts. Once an account has been created, the user can create, edit or delete their own cocktail recipes as well. The app follows MVC paradigm in it's architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM and express-session npm pakage for authentication. Built as part of a three person group."}
-        githubLink={"/wikigithub"}
-        projectLink={"/wikiblog"}
+        githubLink={'https://github.com/nidaqg/wiki-pour'}
+        projectLink={'https://wiki-pour.herokuapp.com/'}
         />
 
         <Project
@@ -32,8 +32,8 @@ function Portfolio() {
         imageAlt={"rubber-duckies"}
         title={"Rubber Duckies: A REACT and MySQL App"}
         description={"A full stack application built using a MySQL and express backend and REACT frontend. App for facilitating communication for those who might experience difficulty communicating due to learning disabilities, social anxiety or the like. The App contains two user types and user experiences: the user making use of the app to communicate and the caregiver responsible for them."}
-        githubLink={"/rubberduckiesgithub"}
-        projectLink={"/rubberduckies"}
+        githubLink={"https://github.com/nidaqg/rubber-duckies"}
+        projectLink={"https://rubber-duckies.herokuapp.com/"}
         />
 
         <Project
@@ -41,8 +41,8 @@ function Portfolio() {
          imageAlt={"weather-demo"}
          title={"Weather Dashboard"}
          description={"Browser-based application for searching for current as well as forecasted weather conditions for any given city. Application built using jQuery, Bootstrap, client side Local Storage and the Openweather API. Click to visit the GitHub repository or the launched page."}
-         githubLink={"/weathergithub"}
-         projectLink={"/weatherdashboard"}
+         githubLink={"https://github.com/nidaqg/weather-dashboard"}
+         projectLink={"https://nidaqg.github.io/weather-dashboard/"}
         />
 
        <Project
@@ -50,8 +50,8 @@ function Portfolio() {
         imageAlt={"cinefile-demo"}
         title={"Cine File: Movie DataBase"}
         description={"A browser-based application for searching for and saving movies the user wishes to watch. Application provides multiple ways to search for movies, displays relevant information as well as trailer of choosen movies and allows users to save any movie to a 'Watch List'. Application built as a group project using jQuery and 2 external APIs. Click to visit the GitHub repository or the launched page."}
-        githubLink={"/cinefilegithub"}
-        projectLink={"/cinefile"}
+        githubLink={"https://github.com/nidaqg/CineFile"}
+        projectLink={"https://nidaqg.github.io/CineFile/"}
         />
       
       <Project
@@ -59,8 +59,8 @@ function Portfolio() {
         imageAlt={"tech-blog-demo"}
         title={"CMS style Blog"}
         description={"This project aimed at creating a CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well. The app follows MVC paradigm in it's architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM and express-session npm pakage for authentication."}
-        githubLink={"/bloggithub"}
-        projectLink={"/techblog"}
+        githubLink={"https://github.com/nidaqg/Tech-blog-demo"}
+        projectLink={"https://lychee-pie-95871.herokuapp.com"}
         />
 
        <Project
@@ -68,8 +68,8 @@ function Portfolio() {
         imageAlt={"daily-planner-demo"}
         title={"Daily Planner"}
         description={"A Daily Planner that allows users to input hourly to-do lists according to the time of day. Application built using jQuery, Luxon and Client side Local Storage Click to visit the GitHub repository or the launched page."}
-        githubLink={"/plannergithub"}
-        projectLink={"/dailyplanner"}
+        projectLink={"https://nidaqg.github.io/daily-workday-planner/"}
+        githubLink={"https://github.com/nidaqg/daily-workday-planner"}
         />
 
        <Project
@@ -77,8 +77,8 @@ function Portfolio() {
         imageAlt={"note-taker-demo"}
         title={"Note Taker"}
         description={"A Note-taker app that allows users to input notes, save them, and delete them when task has been completed. This is a full-stack app built using Node.js, Express.js and javascript. App deployed on Heruko."}
-        githubLink={"/notetakergithub"}
-        projectLink={"/notetaker"}
+        githubLink={"https://github.com/nidaqg/note-taker"}
+        projectLink={"https://note-taker-basic.herokuapp.com/"}
         />
 
         </section>

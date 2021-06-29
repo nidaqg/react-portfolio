@@ -4,6 +4,7 @@ import ContactCard from '../ContactCard';
 import Wrapper from '../Wrapper';
 import image from "./contact.png";
 import "./style.css"
+import resume from "../../images/Nida-Ghuman-Resume.pdf";
 
 function Contact() {
   return (
@@ -17,7 +18,7 @@ function Contact() {
             <p>Have a question for me? Please feel free to reach out to me with any questions or queries!</p>
             <p>Find my resume
               <span>
-                <a href="assets/Nida-Ghuman-resume.pdf" download="nida-ghuman-resume" className="fst-italic link-dark"> here</a>
+                <a href={resume} download="nida-ghuman-resume" className="fst-italic link-dark"> here</a>
               </span>
             </p>
           </ContactCard>
