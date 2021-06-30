@@ -9,7 +9,7 @@ function Project(props) {
         <section className="card text-center h-100 localCard lh-base">
           <img
             src={props.projectImage}
-            className="card-img-top h-50"
+            className="card-img-top"
             alt={props.imageAlt}
           />
           <section className="card-body">
