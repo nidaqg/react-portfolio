@@ -31,12 +31,7 @@ function Project(props) {
             >
               Go to Project
             </a>
-            {/* <Link to={props.githubLink} >
-              Go to GitHub
-            </Link> */}
-            {/* <Link to={props.projectLink} className="btn btn-dark myBtn m-2">
-              Go to Project
-            </Link> */}
+            
           </section>
         </section>
       </section>
