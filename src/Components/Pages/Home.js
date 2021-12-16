@@ -39,11 +39,11 @@ function Home() {
                 <p>
                   Earning a full-stack web development certificate from UPENN
                   LPS coding BootCamp has facilitated the development of strong
-                  skills in HTML5, CSS3, Javascript, Bootstrap, jQuery and
-                  GitHub. Working multiple jobs throughout college as well as
-                  the fast-paced nature of the Coding Bootcamp has helped me
-                  hone my abilities in time management, teamwork and
-                  organization.
+                  skills in HTML5, CSS3, Javascript, Bootstrap, jQuery, GitHub,
+                  React and React Native. Working multiple jobs throughout
+                  college as well as the fast-paced nature of the Coding
+                  Bootcamp has helped me hone my abilities in time management,
+                  teamwork and organization.
                 </p>
                 <p>
                   I have been known as an organized worker and a creative
