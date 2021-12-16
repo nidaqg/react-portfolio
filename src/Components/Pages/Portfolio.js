@@ -10,6 +10,7 @@ import blogImg from "../../images/tech-blog-demo.png";
 import wikiImg from "../../images/wiki-pour-demo.png";
 import noteImg from "../../images/note-taker-demo.png";
 import rubberduckies from "../../images/rubber-duckies-demo.png";
+import moviesLog from "../../images/movies-log-demo.png";
 
 function Portfolio() {
     return (
@@ -34,6 +35,15 @@ function Portfolio() {
         description={"A full stack application built using a MySQL and express backend and REACT frontend. App for facilitating communication for those who might experience difficulty communicating due to learning disabilities, social anxiety or the like. The App contains two user types and user experiences: the user making use of the app to communicate and the caregiver responsible for them."}
         githubLink={"https://github.com/nidaqg/rubber-duckies"}
         projectLink={"https://rubber-duckies.herokuapp.com/"}
+        />
+        
+        <Project
+         projectImage={moviesLog}
+         imageAlt={"movies-log-demo"}
+         title={"Movies Log App"}
+         description={"An iOS APP built using React Native and RESTful API. The app allows users to search for movies by name, by genre or by trending status and view details of chosen movies. Users can also save or unsave movies to a watchlist which can be accessed from the tab menu.Technologies used: React Native, React Native Paper, Styled Components, Async Storage and Expo. Click to vist GitHub repo or view the demo video."}
+         githubLink={"https://github.com/nidaqg/MoviesList-App"}
+         projectLink={"https://watch.screencastify.com/v/8YifPtpZBNVAK6wa4GIK"}
         />
 
         <Project

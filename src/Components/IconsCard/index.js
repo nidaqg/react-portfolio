@@ -10,6 +10,7 @@ import mysqlIcon from "../../images/icons/mysql.png";
 import nodejsIcon from "../../images/icons/nodejs.png";
 import npmIcon from "../../images/icons/npm.png";
 import reactIcon from "../../images/icons/reactlogo.jpeg";
+import reactNative from "../../images/icons/react-native.png";
 
 
 function AboutCard() {
@@ -26,7 +27,8 @@ function AboutCard() {
                     <img src={mysqlIcon} alt="mysql-icon" className="img-fluid m-2 rounded-circle socialIcons2" width="15%"/>               
                     <img src={githubIcon} alt="github-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/> 
                     <img src={reactIcon} alt="react-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
-                    <img src={mongoDBIcon} alt="mongoDB-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>               
+                    <img src={mongoDBIcon} alt="mongoDB-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>
+                    <img src={reactNative} alt="react-native-icon" className="img-fluid rounded-circle m-2 socialIcons2" width="15%"/>          
                  </section>  
         </>
     )
