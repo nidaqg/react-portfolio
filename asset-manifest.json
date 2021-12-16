@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.2a563407.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.9753486a.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.9753486a.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.f950709c.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f950709c.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fed61080.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fed61080.js.map",
     "static/css/2.800be05e.chunk.css": "/react-portfolio/static/css/2.800be05e.chunk.css",
@@ -24,11 +24,14 @@
     "static/media/js.b8eabfa0.png": "/react-portfolio/static/media/js.b8eabfa0.png",
     "static/media/style.css": "/react-portfolio/static/media/logo.ce2002e8.png",
     "static/media/mongoDB.eef56971.png": "/react-portfolio/static/media/mongoDB.eef56971.png",
+    "static/media/movies-log-demo.c698d661.png": "/react-portfolio/static/media/movies-log-demo.c698d661.png",
     "static/media/nida-ghuman-2.9058c5e5.jpeg": "/react-portfolio/static/media/nida-ghuman-2.9058c5e5.jpeg",
     "static/media/nodejs.3bd475fe.png": "/react-portfolio/static/media/nodejs.3bd475fe.png",
     "static/media/note-taker-demo.e141d9cf.png": "/react-portfolio/static/media/note-taker-demo.e141d9cf.png",
     "static/media/planner-demo.e50858a1.png": "/react-portfolio/static/media/planner-demo.e50858a1.png",
     "static/media/portfolio.46f57f18.png": "/react-portfolio/static/media/portfolio.46f57f18.png",
+    "static/media/react-native.a48ef15c.png": "/react-portfolio/static/media/react-native.a48ef15c.png",
+    "static/media/reactlogo.c5af8137.jpeg": "/react-portfolio/static/media/reactlogo.c5af8137.jpeg",
     "static/media/rubber-duckies-demo.21c48211.png": "/react-portfolio/static/media/rubber-duckies-demo.21c48211.png",
     "static/media/tech-blog-demo.343e6685.png": "/react-portfolio/static/media/tech-blog-demo.343e6685.png",
     "static/media/weather-dashboard.e890fd00.png": "/react-portfolio/static/media/weather-dashboard.e890fd00.png",
@@ -39,6 +42,6 @@
     "static/css/2.800be05e.chunk.css",
     "static/js/2.2c23b3af.chunk.js",
     "static/css/main.2a563407.chunk.css",
-    "static/js/main.9753486a.chunk.js"
+    "static/js/main.f950709c.chunk.js"
   ]
 }
